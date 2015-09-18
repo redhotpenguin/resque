@@ -1,5 +1,6 @@
-## 1.25.3 (TBD)
+## 1.25.3 (2015-9-18)
 
+ * Patch with bug ordering id fix https://github.com/Headlinerfm/resque/commit/e0226f86fe9ad294bacf47cadc472492ccf48533
  * rake: when BACKGROUND, ensure worker.reconnect after daemonizing (@yaauie)
  * worker: when searching workers, Worker#pid properly reflects pid of the found worker instead of the current pid. (@yaauie)
  * Add support for RESQUE_PROCLINE_PREFIX environment variable to prefix procline
